@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: pre;
+    src: url(../font/Pretendard-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.htickettap {
+    display: flex;
+}
+
+.htickettap {
+    background-color: #E9E9E9;
+    width: 154px;
+    border-radius: 27px;
+    position: relative;
+    top: 32px;
+    left: 116px;
+}
+
+.roundtrip {
+    height: 36px;
+    width: 82px;
+    border-radius: 27px;
+    background-color: #E6196C;
+    text-align: center;
+    line-height: 36px;
+    font-size: 18px;
+    font-family: pre;
+    color: white;
+    font-weight: 500;
+}
+
+.onewaytrip {
+    height: 36px;
+    width: 82px;
+    border-radius: 0 27px 27px 0;
+    z-index: 100;
+    background-color: #E9E9E9;
+    text-align: center;
+    line-height: 36px;
+    font-size: 18px;
+    font-family: pre;
+    color: #C7C7C7;
+    font-weight: 500;
+}
+
+.roundtap {
+    width: 1313px;
+    height: 113px;
+    border-radius: 78px;
+    border: 2px solid #E6196C;
+    position: relative;
+    top: 17px;
+    left: 0;
+    /* left: -32px; 변경해야함 */
+    position: relative;
+
+
+}
+
+.roundtap {
+    color: black;
+}
+
+.hotelwrap {
+    display: flex;
+}
+
+.arrow {
+    position: relative;
+    top: 15px;
+}
+
+.roundtap ul button {
+    border: none;
+    color: #C7C7C7;
+    font-size: 22px;
+    font-family: pre;
+    background: none;
+}
+
+.roundtap ul span {
+    font-family: pre;
+    font-size: 16px;
+    color: #636363;
+}
+
+.roundtap ul,
+.roundtap ul li span,
+.hdates {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 8px 50px;
+    line-height: 30px;
+    font-family: pre;
+}
+
+.dateswrap .hdates {
+    align-items: center;
+    position: relative;
+    right: 40px;
+    top: -2px;
+}
+
+.dateswrap .dates {
+    padding-left: 64px;
+}
+
+
+.howmany {
+    margin-right: 120px;
+}
+
+.hsearchbutton {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.hotelcountry{
+    margin-left: 100px;
+}
+.hotelcountry p{
+    width: 20px;
+    height: 20px;
+    border-right: 1px solid #E6196C;
+    margin: 4px 20px 4px 0;
+}
+.hotelcountry span{
+    position: relative;
+    margin-bottom: 0;
+}
+
+.hotelcountrywrap{
+    display: flex;
+}
