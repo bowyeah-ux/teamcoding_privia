@@ -17,12 +17,13 @@ $(function () {
         $('.tabcontent > li').eq(idx).show()
     })
     $('.tabmenu li:first').trigger('click')
-    $('.btn2 label').click(function () {
-        $('.theme-section').css({
-            background: 'url(../images/theme-section-osaka-bgimage.png) url(../images/theme-section-guam-bg.png'
-        })
 
-    })
+    // $('.btn2 label').click(function () {
+    //     $('.theme-section').css({
+    //         background: 'url(../images/theme-section-osaka-bgimage.png), url(../images/theme-section-guam-bg.png'
+    //     })
+
+    // })
 
     $(window).scroll(function () {
         let pageof = $('.hsearchbox').offset().top
